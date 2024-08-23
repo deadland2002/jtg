@@ -21,37 +21,37 @@ const dataArr = [
     {
         title:"Front End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Java Script","Web Development","Word Press","React Js.","Next Js"],
     },
     {
         title:"Back End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Java Script","React Js.","Next Js"],
     },
     {
         title:"Front End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Java Script","Web Development","Word Press","React Js.","Next Js"],
     },
     {
         title:"Back End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Java Script","Next Js"],
     },
     {
         title:"Front End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Web Development","Word Press","React Js.","Next Js"],
     },
     {
         title:"Back End Development",
         description:"Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...",
-        bgImg:"/public/image1.png",
+        bgImg:"public/image1.png",
         tags : ["Java Script","Web Development","Word Press","React Js.","Next Js"],
     },
 ]
