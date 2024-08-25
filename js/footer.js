@@ -13,23 +13,42 @@ footerNode.innerHTML = `
             <img src="public/Logo.png" />
         </div>
         <div class="w-full flex justify-between items-center">
-            <div class="flex flex-col w-fit">
-                <span>Link 1</span>
-                <span>Link 2</span>
-                <span>Link 3</span>
-                <span>Link 4</span>
+            <div class="flex flex-col w-fit gap-5">
+                <span>
+                    <a href="#">
+                         <img src="public/link1.png" />
+                    </a>
+                    <p> 4.5/5 Rating on Lorem </p>
+                </span>
+                <span>
+                    <a href="#">
+                         <img src="public/link2.png" />
+                    </a>
+                    <p> 9/10 Rating on Ipsum </p>
+                </span>
+                <span>
+                    <a href="#">
+                         <img src="public/link3.png" />
+                    </a>
+                    <p> 4.5/5 Rating on detor </p>
+                </span>
             </div>
             
             <div class="flex gap-4">
-                <div class="flex flex-col w-fit min-w-[200px]">
+                <div class="flex flex-col w-fit gap-4 min-w-[200px]">
                     <span class="font-semibold mb-4">Quick Links</span>
-                    <span class="text-gray-600 text-sm">Home</span>
-                    <span class="text-gray-600 text-sm">Skills</span>
-                    <span class="text-gray-600 text-sm">Education</span>
-                    <span class="text-gray-600 text-sm">Projects</span>
-                    <span class="text-gray-600 text-sm">Recommendations</span>
+                    <span class="text-gray-600 text-sm">
+                        <a href="#">Home</a></span>
+                    <span class="text-gray-600 text-sm">
+                        <a href="Skill.html">Skills</a></span>
+                   <span class="text-gray-600 text-sm">
+                        <a href="#">Education</a></span>
+                    <span class="text-gray-600 text-sm">
+                        <a href="#">Projects</a></span>
+                    <span class="text-gray-600 text-sm">
+                        <a href="#">Recommendations</a></span>
                 </div>
-                <div class="flex flex-col w-fit min-w-[200px]">
+                <div class="flex flex-col w-fit gap-4 min-w-[200px]">
                     <span class="font-semibold mb-4">Portfolios</span>
                     <span class="text-gray-600 text-sm">Frontend Development</span>
                     <span class="text-gray-600 text-sm">Backend Development</span>
@@ -37,11 +56,19 @@ footerNode.innerHTML = `
                     <span class="text-gray-600 text-sm">Machine Learning</span>
                     <span class="text-gray-600 text-sm">Problem Solving & DSA</span>
                 </div>
-                <div class="flex flex-col w-fit min-w-[200px]">
+                <div class="flex flex-col w-fit gap-4 min-w-[200px]">
                     <span class="font-semibold mb-4">Connect</span>
-                    <span class="text-gray-600 text-sm">Link 2</span>
-                    <span class="text-gray-600 text-sm">Link 3</span>
-                    <span class="text-gray-600 text-sm">Link 4</span>
+                    <span>
+                    <a href="#">
+                         <img src="public/linkedin.png" />
+                    </a>
+                </span>
+                    <a href="#">
+                         <img src="public/insta.png" />
+                    </a>
+                   <a href="#">
+                         <img src="public/face.png" />
+                    </a>
                 </div>
             </div>
         </div>
