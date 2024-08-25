@@ -11,28 +11,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="flex flex-col lg:flex-row justify-between items-center p-10 lg:p-20 mt-[100px]">
+    <section class="flex flex-col lg:flex-row justify-between p-10 lg:pt-20 lg:pl-20 lg:pb-0 lg:pr-0 mt-[100px]">
         <!-- Content Section -->
-        <div class="max-w-lg mb-10 lg:mb-0 lg:mr-16 text-center lg:text-left">
-            <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                I'm <span class="text-yellow-500">Anshika Pandey</span><br>Front-end Developer
-            </h1>
-            <p class="mt-6 text-gray-600 leading-relaxed">
-                Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Et, Volutpat Feugiat
-                Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
-            </p>
-            <button class="mt-8 bg-yellow-500 text-white py-3 px-6 rounded-lg font-semibold shadow-md hover:bg-yellow-600 transition">
-                Hire Me →
-            </button>
+        <div class="flex justify-center items-center">
+	        <div class="max-w-lg mb-10 lg:mb-0 lg:mr-16 text-center lg:text-left flex flex-col gap-6 items-center lg:items-start">
+		        <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+			        I'm <span class="text-yellow-500">Anshika Pandey</span><br>Front-end Developer
+		        </h1>
+		        <p class="mt-6 text-gray-600 leading-relaxed">
+			        Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Et, Volutpat Feugiat
+			        Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
+		        </p>
+		        <button class="mt-8 bg-yellow-500 text-black py-3 px-6 rounded-lg font-semibold shadow-md hover:bg-yellow-600 transition w-fit">
+			        Hire Me →
+		        </button>
+	        </div>
         </div>
 
         <!-- Image Section -->
-        <div class="max-w-md">
-            <img src="public/developer.png" alt="Developer Image" class="w-full h-auto">
+        <div class="flex justify-center lg:items-end flex-1 height-full">
+            <img src="public/developer.png" alt="Developer Image" class="w-[60vw] object-contain">
         </div>
     </section>
     
-    <section class="min-h-[90vh] mt-[90px] bg-[#F0F0F6] flex flex-col gap-5">
+    <section class="min-h-[90vh] bg-[#F0F0F6] flex flex-col gap-5">
 	    
 	    <div class="flex justify-center flex-col items-center pt-16 gap-5">
 		    <span class="text-4xl font-semibold text-gray-700">Projects</span>
